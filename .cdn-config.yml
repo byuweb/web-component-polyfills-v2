@@ -1,6 +1,8 @@
 ---
+$config-version: 1
 name: Web Components v2 Polyfill Bundle
 description: Bundle of web component polyfills for v2 of the BYU theme components.
+type: javascript
 resources:
   - src: bundles/**
     dest: ./
