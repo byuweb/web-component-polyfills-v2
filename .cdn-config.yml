@@ -1,0 +1,13 @@
+---
+name: Web Components v2 Polyfill Bundle
+description: Bundle of web component polyfills for v2 of the BYU theme components.
+resources:
+  - src: bundles/**
+    dest: ./
+entrypoints:
+  webcomponents-ce.js: "Minified bundle of Custom Element polyfills."
+  webcomponents-sd-ce.js: "Minified bundle of Shadow DOM and Custom Element polyfill.s"
+  webcomponetns-sd-ce-pf.js: "Minified bundle of all webcomponent polyfill.s"
+  webcomponents-sd.js: "Minified bundle of Shadow DOM polyfills."
+docs:
+  https://github.com/byuweb/web-component-polyfills-v2
